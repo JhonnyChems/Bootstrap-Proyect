@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #181515;
+    background: #160d0df8;
 }
 
 .section-padding {
@@ -140,4 +140,51 @@ footer{
 .portfolio .section-padding{
     height: 100px;
     width: 50px;
+}
+
+.prueba{
+    background-color: #694834b0;
+}
+
+.prueba:hover{
+    background-color: rgba(233, 205, 170, 0.87);
+}
+
+p.socials a {
+    text-decoration: none;
+}
+
+
+.containeer{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    background: rgba(255, 255, 255, 0.);
+    border-radius: 10px;
+}
+
+.containeer a{
+    padding: 10px;
+    font-size: 30px;
+    transition: all 500ms;
+}
+
+.Facebook{
+    color: rgb(28, 80, 158);
+}
+
+.Instagram{
+    color: rgb(238, 49, 175);
+}
+
+.linkedin{
+    color: rgb(24, 95, 201);
+}
+
+.Github{
+    color: black;
+}
+
+.containeer a :hover{
+    transform: scale(1.3);
 }
